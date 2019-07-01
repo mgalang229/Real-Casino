@@ -2,22 +2,29 @@
 const co = document.querySelector('.co');
 const claim = document.querySelector('.claim');
 const header = document.querySelector('header');
+//HOME
 const casinoHome = document.querySelector('.casinoHome');
 const hiddenHome = document.querySelector('.hiddenHome');
+//OFFERS
 const offer = document.querySelector('.offer');
 const offer1 = document.querySelector('.offer1');
 const offer2 = document.querySelector('.offer2');
 const offer3 = document.querySelector('.offer3');
+//SUBOFFERS
 const subOffer1 = document.querySelector('.subOffer1');
 const subOffer2 = document.querySelector('.subOffer2');
 const subOffer3 = document.querySelector('.subOffer3');
+//REVEAL BUTTON
 const revealBtn1 = document.querySelector('.revealBtn1');
 const revealBtn2 = document.querySelector('.revealBtn2');
 const revealBtn3 = document.querySelector('.revealBtn3');
+//DOLLAR IMAGES
 const dollarIMG = document.querySelector('.dollarIMG');
 const dollarIMG2 = document.querySelector('.dollarIMG2');
 const dollarIMG3 = document.querySelector('.dollarIMG3');
+//PICK H3
 const pickH3 = document.querySelector('.pickH3');
+//OFFER IMAGES
 const offerIMG = document.querySelector('.offerIMG');
 const offerIMG2 = document.querySelector('.offerIMG2');
 const offerIMG3 = document.querySelector('.offerIMG3');
@@ -37,6 +44,9 @@ function showHidden(){
     offer.style.animation = 'float 1s infinite';
 	offer.style.animationTimingFunction = 'linear';
 }
+
+
+//SUBOFFER1 FUNCTION
 
 subOffer1.addEventListener('click', clickOffer1);
 
@@ -93,6 +103,9 @@ function clickOffer1(){
 	});
 }
 
+
+//SUBOFFER2 FUNCTION
+
 subOffer2.addEventListener('click', clickOffer2);
 
 function clickOffer2(){
@@ -145,6 +158,8 @@ function clickOffer2(){
 		}
 	});
 }
+
+//SUBOFFER3 FUNCTION
 
 subOffer3.addEventListener('click', clickOffer3);
 
